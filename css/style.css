@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
+* {
+	box-sizing: border-box;
+  }
 body{
 	background-color:#eae9e9;
 	margin:0px;
@@ -14,7 +17,6 @@ a{
 section{
 	width:100%;
 	height:65px;
-	/* position: relative; */
 }
 nav {
 	display: flex;
@@ -24,6 +26,10 @@ nav {
 	background-color:#ffffff;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 	padding:0px 5%;
+	z-index: 100;
+	position: fixed;
+    top: 0;
+	width: 100%;
 }
 nav ul{
 	display: flex;
@@ -35,7 +41,7 @@ nav ul{
 nav ul li a{
 	margin:30px;
 	font-family:myriad pro regular;
-	color:#505050;
+	color:#808080;
 	font-size: 17px;
 	font-weight:700;
 }
@@ -168,32 +174,40 @@ nav ul li a{
     background-color: #555;
 }
 
-footer p{
-	font-family: calibri;
+/* Footer */
+footer {
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	
 }
-footer p:nth-child(1){
-	font-size: 30px;
-	font-weight:bold;
-	color:#191919;
-	line-height:10px;
+.footer-branding {
+    display: flex;
+    align-items: center;
 }
-footer p:nth-child(2){
-	font-size: 16px;
-	color:#7e7d7d;
-	width:600px;
-	text-align: center;
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Adjust based on your design */
+    margin: 0 auto;
 }
-footer{
-	height:300px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+.footer-logo img{
+	width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Ensures the image is circular */
+    margin-right: 10px;
+}
+.footer-text p {
+    margin: 0; /* Remove margin for p elements */
+    line-height: 1.5; /* Adjust line height as necessary */
+    font-size: 16px; /* Adjust font size as necessary */
+	flex-grow: 1;
 }
 .social-icons a{
-	width:40px;
-	height:40px;
+	width:50px;
+	height:50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -203,10 +217,10 @@ footer{
 }
 .social-icons{
 	display: flex;
-	
 }
 .social-icons i,.social i{
 	color:#000000;
+	font-size: 18px;
 }
 .social-icons a:hover{
 	background-color:#000000;
@@ -217,15 +231,6 @@ footer{
 .social a:hover i{
 	color:#FFFFFF;
 	transition:all ease 0.5s;
-}
- 
-.copyright{
-	color:#565555;
-	font-size: 12px;
-	position: absolute;
-	left:50%;
-	bottom:10px;
-	transform: translateX(-50%);
 }
 .social{
 	position: fixed;
@@ -320,7 +325,7 @@ footer{
 		font-family: calibri;
 		font-size: 1.4em;
 		text-transform: uppercase;
-		color:#5c5c5c;
+		color:#808080;
 	}
 	nav ul li a:hover{
 		color:#121212;
@@ -364,11 +369,30 @@ footer{
         /* If you want the card to always fit the screen with some margin, you can use calc */
         /* width: calc(100% - 40px); */ /* Adjust the 40px to increase/decrease the margin */
     }
-	footer p:nth-child(2){
-		width: 90%;
-	}
 	.languages-tools-text {
         font-size: 16px; /* Decrease font size on smaller screens */
         line-height: 1.4; /* Adjust line height on smaller screens */
+    }
+	footer {
+        padding: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-branding {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo,
+    .social-icons {
+        margin-bottom: 10px;
+    }
+
+    .social-icons {
+        justify-content: center;
     }
 }

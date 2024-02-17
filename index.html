@@ -22,18 +22,18 @@
 <body>
     <section>
     <!--navigation------------------------->
-	    <nav>
+        <nav>
         <!--logo-->
         <div class="logo">
             <img src="images/bryan.jpeg" alt="Logo" class="logo-image">
-            <a href="#" class="logo-text">bryan273</a>
+            <a href="https://bryan273.github.io" class="logo-text">bryan273</a>
         </div>
         <!--menu-->
         <ul>
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Experiences</a></li>
-        <li><a href="#">Achievements</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="https://bryan273.github.io#home-section">Home</a></li>
+        <li><a href="https://bryan273.github.io#experience-section">Experiences</a></li>
+        <li><a href="https://bryan273.github.io#achievement-section" class="active">Achievements</a></li>
+        <li><a href="https://bryan273.github.io#project-section">Projects</a></li>
         </ul>
         <!--bars--------------->
         <div class="toggle"></div>
@@ -165,20 +165,25 @@
 
     <!--footer--------------->
     <footer>
-        <!--heading-->
-    <p>Going-To Internet</p>
-        <!--paragraph-->
-        <p>I makeas soon as possibale.You really like my work,if you don&#8217;t i change this until you like I give you seticfaction result</p>
-        <!--social-->
-    <div class="social-icons">
-        <a href="mailto:bryantjandra@ristek.cs.ui.ac.id" target="_blank"><i class="fas fa-envelope"></i></a>
-        <a href="https://www.instagram.com/bryantjandra27/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/bryan-tjandra/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/bryan273" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
-        <!--copyright-->
-        <p class="copyright">Copyright by Goin-To Internet</p>
+        <div class="footer-content">
+            <div class="footer-branding">
+                <div class="footer-logo">
+                    <img src="images/bryan.jpeg" alt="Logo" />
+                </div>
+                <div class="footer-text">
+                    <p>© 2024 Bryan Tjandra. All rights reserved.</p>
+                    <p>Powered by Going-To Internet</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="mailto:bryantjandra@ristek.cs.ui.ac.id" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/bryantjandra27/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/bryan-tjandra/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/bryan273" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
     </footer>
+
     <!--social-attach-bar-->
     <div class="social">
         <a href="mailto:bryantjandra@ristek.cs.ui.ac.id" target="_blank"><i class="fas fa-envelope"></i></a>
@@ -197,9 +202,13 @@
             $('.toggle').toggleClass('active');
             $('nav').toggleClass('active');
         });
+
+        // Auto-close sidebar when a link is clicked
+        $('nav ul li a').click(function(){
+            $('.toggle').removeClass('active');
+            $('nav').removeClass('active');
+        });
     });
     </script>
-
-      
 </body>
 </html>
