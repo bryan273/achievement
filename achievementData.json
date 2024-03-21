@@ -1,0 +1,105 @@
+[
+    {
+        "imageSrc":"images/Dataslayer.jpg",
+        "title":"1st Winner of Machine Learning Competition, Data Slayer 1.0",
+        "organizer":"Telkom Institute of Technology Purwokerto - Jan 2024",
+        "description":"Overcame over 120 teams with a proposed multi-layered stacking machine learning model to estimate CO2 vehicle emissions in Indonesia.",
+        "readMoreLink":"https://drive.google.com/file/d/162NPTTkpkRRz1DL7PZPnflUrcZINTcZC/view?usp=sharing",
+        "medal": "images/Gold.png"
+    },
+    {
+        "imageSrc":"images/Dataquest.jpg",
+        "title":"1st Winner of Innovation Quest, Airnology 2.0",
+        "organizer":"Universitas Airlangga - Oct 2023",
+        "description":"Developed a solution called 'Pantau Jalan' that leverages Artificial Intelligence for road damage prioritization through integration of social media reports and application.",
+        "readMoreLink":"https://drive.google.com/file/d/1id6wejrXTfgKNhZpwcKv8uhutK6Z2_uw/view?usp=drive_link",
+        "medal": "images/Gold.png"
+    },
+    {
+        "imageSrc":"images/Gemastik23.jpg",
+        "title":"2nd Winner of Data Mining GEMASTIK XVI",
+        "organizer":"Pusat Prestasi Nasional - Sep 2023",
+        "description":"Achieved 2nd rank by competing with 193 other teams in 50+ prominent universities nationally. Innovated a new methodology to help estimate commuter train density through crowd counting with computer vision. This innovation is expected to help passengers avoid overcrowded capacity. Also created an automation machine to detect suspicious hacking malware action",
+        "readMoreLink":"https://cs.ui.ac.id/2023/09/16/universitas-indonesia-raih-perolehan-medali-terbanyak-ke-2-gemastik-xvi-2023/",
+        "medal": "images/Silver.jpg"
+    },
+    {
+        "imageSrc":"images/Satdat.jpg",
+        "title":"1st Winner of Big Data Challenge, Satria Data 2023",
+        "organizer":"Pusat Prestasi Nasional - August 2023",
+        "description":"Achieving the 1st rank by surpassing over 209 teams from 50 universities by developing a system to detect license plates under clear, blurry, and dark images. We also created a Legal Textual Entailment (LTE) system to test the alignment of legal documents. The contribution of this research covers the LTE system and a dataset named LawID",
+        "readMoreLink":"https://tekno.tempo.co/read/1764580/tim-mahasiswa-fasilkom-ui-ciptakan-ai-uji-keselarasan-peraturan-perundangan",
+        "medal": "images/Gold.png"
+    },
+    {
+        "imageSrc":"images/Isfest.jpg",
+        "title":"1st Winner of Data Competition, ISFEST 2023",
+        "organizer":"Universitas Multimedia Nusantara - Jul 2023",
+        "description":"Securing first place by implementing intermediate fusion techniques on multi-modal tabular, text, and image data for house price predictions in the Jabodetabek region. The proposed approach integrates CatBoost, BERT, and CNN methodologies, resulting in an impressive RMSE at 26 million, within a standard deviation of 1 billion",
+        "readMoreLink":"https://drive.google.com/file/d/19cWameWJ2fGj6PC_hI5OexrBqXi2MxWX/view?usp=sharing",
+        "medal": "images/Gold.png"
+    },
+    {
+        "imageSrc":"images/Technoskills.jpg",
+        "title":"1st Winner of Computer Vision Challenge, Technoskill 1.0",
+        "organizer":"PIPTEK IME FTUI - May 2023",
+        "description":"Attained first place in the computer vision category of 'Transportation Detection and Classification on Toll Roads Using the CNN and YOLO Methods,' demonstrating proficiency in utilizing CNN and YOLO methods for detecting and classifying transportation on toll roads.",
+        "medal": "images/Gold.png"
+    },
+    {
+        "imageSrc":"images/Joints.jpg",
+        "title":"1st Winner of JOINTS Data Competition, JOINTS 2023",
+        "organizer":"Universitas Gadjah Mada - May 2023",
+        "description":"Achieved first place by employing a holistic approach to 'Developing an Ensemble Model for Earthquake Damage Classification' and 'Utilizing CNN Method with Skip Connections for Fire Detection in Images.' Outperformed over 230 participants in the competition from 20 national universities.",
+        "readMoreLink":"https://cs.ui.ac.id/2023/05/23/universitas-indonesia-raih-juara-umum-kompetisi-it-bergengsi-jogja-information-technology-session-joints-2023/",
+        "medal": "images/Gold.png"
+    },
+    {
+        "imageSrc":"images/Mapres.jpg",
+        "title":"Most Outstanding Student III of the Faculty of Computer Science",
+        "organizer":"University of Indonesia - Mar 2023",
+        "description":"Received the 3rd place honor most outstanding student from several criteria: academic achievements, innovative ideas, and English speaking skills.",
+        "readMoreLink":"https://cs.ui.ac.id/2023/03/28/fasilkom-ui-umumkan-pemenang-mahasiswa-berprestasi-2023/",
+        "medal": "images/Others.jpg"
+    },
+    {
+        "imageSrc":"images/Arkav.jpg",
+        "title":"1st Winner of Datavidia Competition, Arkavidia 8.0",
+        "organizer":"Institut Teknologi Bandung - February 2023",
+        "description":"Accomplished successful implementation of a cutting-edge rainfall forecasting system and early warning earthquake detection, resulting in outperforming 136 teams. My team developed a system that significantly enhanced the ability to detect seismic activity, providing the vital prediction of magnitude, location, total damage, and tsunami",
+        "readMoreLink":"https://cs.ui.ac.id/2023/03/01/universitas-indonesia-juarai-3-cabang-kompetisi-it-di-ajang-arkavidia-8-0/",
+        "medal": "images/Gold.png"
+    },
+    {
+        "imageSrc":"images/Hology.jpg",
+        "title":"1st Winner of IT Paper & Poster Hology Competition",
+        "organizer":" Universitas Brawijaya - Nov 2022",
+        "description":"My team (Three Neurons) and I proposed a paper with the title: 'Detection Of Waste On The Water Surface On Video Objects With Robust And Efficient Post-processing Methods And Tubelet-level Bounding Box Linking'. We managed to achieve first winner through our solution.",
+        "readMoreLink":"https://drive.google.com/file/d/1GTs4E_oeRKdiTZkAPVMmfcNbRayS-dfq/view?usp=sharing",
+        "medal": "images/Gold.png"
+    },
+    {
+        "imageSrc":"images/Gemastik22.jpg",
+        "title":"3rd Winner of Data Mining, GEMASTIK XV",
+        "organizer":"Pusat Prestasi Nasional - Nov 2022",
+        "description":"Our team (Three Neurons) proposed a solution with a new video object detection method for water trash. With this proposal and sentiment analysis tasks on the news, we managed to outperform 550+ other participants from all over Indonesia university into 3rd rank.",
+        "readMoreLink":"https://tekno.tempo.co/read/1661108/mahasiswa-ui-raih-7-gelar-juara-gemastik-xv",
+        "medal": "images/Bronze.png"
+    },
+    {
+        "imageSrc":"images/Ifest.jpg",
+        "title":"3rd Winner of Data Analysis Competition Informatics Festival",
+        "organizer":" Universitas Padjadjaran - Oct 2022",
+        "description":"Managed to outperform other teams with the topic 'Student Faculty Classification with Semi-Lazy Learning'",
+        "readMoreLink":"https://drive.google.com/file/d/1b_2JNztj0Y1SxJbLCA94QFHkg8JUL24G/view?usp=sharing",
+        "medal": "images/Bronze.png"
+    },
+    {
+        "imageSrc":"images/Posco.jpg",
+        "title":"POSCO Asia Fellowship Scholarship Awardee 2022-2024",
+        "organizer":" POSCO TJ Park Foundation - Aug 2022",
+        "description":"Selected as top 15 grantees out of 228 registrants, competitively assessed through CV, essay, and interview to be fully funded for one year's study in University of Indonesia by POSCO TJ Park Foundation",
+        "readMoreLink":"https://kemahasiswaan.ui.ac.id/selamat-kepada-penerima-beasiswa-posco-asia-fellowship-for-graduate-student/",
+        "medal": "images/Others.jpg"
+    }
+]
