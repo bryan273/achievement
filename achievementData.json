@@ -1,5 +1,13 @@
 [
     {
+        "imageSrc":"images/Mapres.jpg",
+        "title":"Most Outstanding Student II of the Faculty of Computer Science",
+        "organizer":"University of Indonesia - Mar 2024",
+        "description":"Received the honor of most outstanding student for two consecutive years (2nd place in 2024 and 3rd place in 2023) assessed from several criteria: academic achievements, innovative ideas, and English speaking skills.",
+        "readMoreLink":"https://www.instagram.com/p/C4Np-KkNHfi/?utm_source=ig_web_button_share_sheet",
+        "medal": "images/Others.jpg"
+    },
+    {
         "imageSrc":"images/Dataslayer.jpg",
         "title":"1st Winner of Machine Learning Competition, Data Slayer 1.0",
         "organizer":"Telkom Institute of Technology Purwokerto - Jan 2024",
@@ -32,6 +40,14 @@
         "medal": "images/Gold.png"
     },
     {
+        "imageSrc":"images/Posco.jpg",
+        "title":"POSCO Asia Fellowship Scholarship Awardee 2022-2024",
+        "organizer":" POSCO TJ Park Foundation - Aug 2023",
+        "description":"Selected two years consecutively as top 15 grantees out of 228 registrants, competitively assessed through CV, essay, and interview to be fully funded for two years of study in University of Indonesia by POSCO TJ Park Foundation",
+        "readMoreLink":"https://kemahasiswaan.ui.ac.id/selamat-kepada-penerima-beasiswa-posco-asia-fellowship-for-graduate-student/",
+        "medal": "images/Others.jpg"
+    },
+    {
         "imageSrc":"images/Isfest.jpg",
         "title":"1st Winner of Data Competition, ISFEST 2023",
         "organizer":"Universitas Multimedia Nusantara - Jul 2023",
@@ -53,14 +69,6 @@
         "description":"Achieved first place by employing a holistic approach to 'Developing an Ensemble Model for Earthquake Damage Classification' and 'Utilizing CNN Method with Skip Connections for Fire Detection in Images.' Outperformed over 230 participants in the competition from 20 national universities.",
         "readMoreLink":"https://cs.ui.ac.id/2023/05/23/universitas-indonesia-raih-juara-umum-kompetisi-it-bergengsi-jogja-information-technology-session-joints-2023/",
         "medal": "images/Gold.png"
-    },
-    {
-        "imageSrc":"images/Mapres.jpg",
-        "title":"Most Outstanding Student III of the Faculty of Computer Science",
-        "organizer":"University of Indonesia - Mar 2023",
-        "description":"Received the 3rd place honor most outstanding student from several criteria: academic achievements, innovative ideas, and English speaking skills.",
-        "readMoreLink":"https://cs.ui.ac.id/2023/03/28/fasilkom-ui-umumkan-pemenang-mahasiswa-berprestasi-2023/",
-        "medal": "images/Others.jpg"
     },
     {
         "imageSrc":"images/Arkav.jpg",
@@ -93,13 +101,5 @@
         "description":"Managed to outperform other teams with the topic 'Student Faculty Classification with Semi-Lazy Learning'",
         "readMoreLink":"https://drive.google.com/file/d/1b_2JNztj0Y1SxJbLCA94QFHkg8JUL24G/view?usp=sharing",
         "medal": "images/Bronze.png"
-    },
-    {
-        "imageSrc":"images/Posco.jpg",
-        "title":"POSCO Asia Fellowship Scholarship Awardee 2022-2024",
-        "organizer":" POSCO TJ Park Foundation - Aug 2022",
-        "description":"Selected as top 15 grantees out of 228 registrants, competitively assessed through CV, essay, and interview to be fully funded for one year's study in University of Indonesia by POSCO TJ Park Foundation",
-        "readMoreLink":"https://kemahasiswaan.ui.ac.id/selamat-kepada-penerima-beasiswa-posco-asia-fellowship-for-graduate-student/",
-        "medal": "images/Others.jpg"
     }
 ]
